@@ -13,7 +13,7 @@ motors: GA12-N20 6V 1000RPM
 
 h-bridge: DRV8833
 
-sensors: 8xQRE1113GR (chinees bordje)
+sensors: QTR-8A (fake version)
 
 batteries:
 
