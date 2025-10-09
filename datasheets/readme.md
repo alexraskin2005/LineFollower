@@ -5,7 +5,7 @@
   
 ## 8 Channel line tracking sensor:
   geen data sheet maar wel info op product pagina:
-      https://nl.aliexpress.com/item/1005007315688221.html?spm=a2g0o.productlist.main.3.4781wrC8wrC8qr&algo_pvid=924f13d9-850d-4a61-98f0-    d025ea892361&algo_exp_id=924f13d9-850d-4a61-98f0-d025ea892361-
+      https://nl.aliexpress.com/item/1005007315688221.html?spm=a2g0o.productlist.main.3.4781wrC8wrC8qr&algo_pvid=924f13d9-850d-4a61-98f0
 
 ## GA12-N20 Metal Gear Motor:
   https://www.phippselectronics.com/support/ga12-n20-metal-geared-motor-specifications/?srsltid=AfmBOoqWg_4kpPkJ_iSiyYlxafkVNez5Sd6efB_J0aUtHTLKp6jZPK8y
