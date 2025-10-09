@@ -1,7 +1,8 @@
 # datasheets of the components used in this project
 
 ## ESP-WROOM-32:
-  https://www.alldatasheet.com/datasheet-pdf/view/1179101/ESPRESSIF/ESP-WROOM-32.html (IC not dev board)
+  datasheet IC:
+      https://www.alldatasheet.com/datasheet-pdf/view/1179101/ESPRESSIF/ESP-WROOM-32.html
   
 ## 8 Channel line tracking sensor:
   geen data sheet maar wel info op product pagina:
