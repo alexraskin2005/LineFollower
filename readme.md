@@ -1,25 +1,25 @@
 # LineFollower
 
-lege repository die je als template kan gebruiken om een eigen repository te starten voor uw linefollower project
+Line follower project op HoGent
 
 ![A description of my image](images/empty.png)
 
   
 ## specifications
 
-microcontroller:
+microcontroller: ESP-Wroom-32
 
-motors: 
+motors: GA12-N20 6V 1000RPM
 
-h-bridge:
+h-bridge: DRV8833
 
-sensors:
+sensors: 8xQRE1113GR (chinees bordje)
 
 batteries:
 
-wireless communication:
+wireless communication: ESP-Wroom-32
 
-distance sensor - motors:
+distance sensor - motors: 
 
 weight:
 
