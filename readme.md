@@ -9,7 +9,7 @@ Line follower project op HoGent
 
 microcontroller: ESP32
 
-motors: GA12-N20 6V 1000RPM
+motors: N20 6V 1000RPM
 
 h-bridge: DRV8833
 
