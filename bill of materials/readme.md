@@ -10,4 +10,4 @@
 |5|DRV8833 module | 2 channel DC motordriver | nieuw | per 10 verkocht | 10 | 3,24 |
 |6|ZJ327 3PI 34*7 | rubbere wieltjes voor N20 motors | nieuw | 1,40 | 2 | 2,80 |
 |7|Turnigy 1000mAh 2S 20C LiPoly Pack| baterij | nieuw | 6,04 | 1 | 6,04 |
-|8 | 2s LiPoly Charger | lader | recup | 0 | 1 | 0 |
+|8 | 2-3s LiPoly Charger | lader | recup | 0 | 1 | 0 |
