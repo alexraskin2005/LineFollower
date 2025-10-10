@@ -7,7 +7,7 @@ Line follower project op HoGent
   
 ## specifications
 
-microcontroller: ESP-Wroom-32
+microcontroller: ESP32
 
 motors: GA12-N20 6V 1000RPM
 
@@ -15,9 +15,9 @@ h-bridge: DRV8833
 
 sensors: QTR-8A (fake version)
 
-batteries:
+batteries: lipo 2s 1000mah 20C
 
-wireless communication: ESP-Wroom-32
+wireless communication: ESP32
 
 distance sensor - motors: 
 
