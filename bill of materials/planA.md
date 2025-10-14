@@ -13,5 +13,5 @@
 |8| Condensator 10uF | ontkoppeling | nieuw | | 3 |
 |9| Condensator 0u1F | ontkoppeling | nieuw | | 3 |
 |10|weerstand 10kohm | pullup | recup | | 1 |
-|11|weerstand 100ohn | voorschakel led | | 1 |
+|11|weerstand 100ohn | voorschakel led | recup | | 1 |
 
