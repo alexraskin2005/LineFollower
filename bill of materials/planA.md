@@ -14,4 +14,7 @@
 |9| Condensator 0u1F | ontkoppeling | nieuw | | 3 |
 |10|weerstand 10k ohm | pullup | recup | | 1 |
 |11|weerstand 100 ohm | voorschakel led | recup | | 1 |
+|12| diode | beveiliging | nieuw | | 2 |
+|12| led rood | power led | recup | | 1 |
+
 
