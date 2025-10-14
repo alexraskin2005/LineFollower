@@ -10,4 +10,8 @@
 |5|ZJ327 3PI 34*7 | rubbere wieltjes voor N20 motors | recup
 |6|Turnigy 1000mAh 2S 20C LiPoly Pack| baterij | recup | 
 |7 | 2-3s LiPoly Charger | lader | recup | 
-|8| 
+|8| Condensator 10uF | ontkoppeling | nieuw | | 3 |
+|9| Condensator 0u1F | ontkoppeling | nieuw | | 3 |
+|10|weerstand 10kohm | pullup | recup | | 1 |
+|11|weerstand 100ohn | voorschakel led | | 1 |
+
