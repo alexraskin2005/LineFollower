@@ -14,8 +14,12 @@
 ## DRV8833 motordriver module:
   product page (board): 
       https://nl.aliexpress.com/item/1005006782141292.html?spm=a2g0o.order_list.order_list_main.28.220d79d2N5BjEL&gatewayAdapt=glo2nld
+      
   datasheet IC: 
       https://www.ti.com/lit/ds/symlink/drv8833.pdf?ts=1759987157796
+      
+  datasheet module:
+      https://components101.com/modules/drv8833-dual-h-bridge-motor-driver-module
 
   
   

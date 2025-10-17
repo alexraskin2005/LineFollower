@@ -1,25 +1,25 @@
 # LineFollower
 
-lege repository die je als template kan gebruiken om een eigen repository te starten voor uw linefollower project
+Line follower project op HoGent
 
 ![A description of my image](images/empty.png)
 
   
 ## specifications
 
-microcontroller:
+microcontroller: ESP32
 
-motors: 
+motors: N20 6V 1000RPM
 
-h-bridge:
+h-bridge: DRV8833
 
-sensors:
+sensors: QTR-8A (fake version)
 
-batteries:
+batteries: lipo 2s 1000mah 20C
 
-wireless communication:
+wireless communication: ESP32
 
-distance sensor - motors:
+distance sensor - motors: 
 
 weight:
 
