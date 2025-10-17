@@ -176,6 +176,7 @@ void startRuntimeServer() {
 
 
   /////////// /start - enable the control loop
+
   server.on("/start", HTTP_ANY, []() {
     running = true;
     Serial.println("Control loop started via /start");
@@ -232,6 +233,11 @@ void startRuntimeServer() {
 }
 
 
+void IRAM_ATTR handleInterrupt() {
+  running = !running;  // Toggle state
+}
+
+
 
 void setup() {
   // initialize Serial first so prints appear
@@ -246,6 +252,11 @@ void setup() {
   for (int i = 0; i < 8; ++i) {
     if (sensorPins[i] != 0) pinMode(sensorPins[i], INPUT);
   }
+
+  //start/stop interupt
+  pinMode(23, INPUT_PULLUP);
+  attachInterrupt(23, handleInterrupt, FALLING);
+
   connectOrStartPortal();
   // If connected start runtime HTTP server
   if (WiFi.status() == WL_CONNECTED) {
