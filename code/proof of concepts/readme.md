@@ -1,12 +1,17 @@
 # Proof of Concepts
 
-Een proof of concept is een combinatie van minimale hard- en software om eenvoudig aan te tonen dat iets werkt.  
-Proof of concepts kunnen enerzijds als eerste poging dienen om een bepaald onderdeel van het project werkend te krijgen. Anderzijds kunnen ze tijdens het debuggen van het finale project dienen als test om eventuele hardware problemen te elimineren bij onduidelijke problemen.
+De proof of concept bestaat uit 1 programma wegens ik verder heb gewerkt op de zelfde fille en vergeten ben apparte filles te maken.
 <br />  
 <br />
-Een proof of concept bestaat uit
-* een elektronisch schema (indien van toepassing)
-* minimale code om de voorop gestelde zaken te demonstreren
-* minimale uitleg / aandachtspunten
+Deze proof of concept heeft de volgende functionaliteit
+* Verbinden via wifi, indien de credentials uit het eeprom niet werken wordt er een configure portal opgezet om deze in te kunnen geven (esp32 in router mode)
+* Eenmaal verbonden met wifi kan met linefollwer.local/set?m1= of /set?m2= de pwm output voor de motoren ingesteld worden
+* Met linefollwer.local/start of /stop kunnen de motoren gestart en gestopt worden
+* Met linefollwer.local/debug kunnen parameters uitgelezen worden, hiermee kunnen de sensor waarden bekeken worden
 <br />
-De elektronische schakelingen van de proof of concepts komen bij voorkeur overeen met deze van de uiteindelijke linefollower, zodat de code zonder aanpassingen op het finale project kan draaien.
+Hiermeer worden de volgende zaken aangetoond
+* De draadloze communicatie werkt
+* De motoren kunnen afzonderlijk aangestuurd worden
+* De sensoren kunnen uitgelezen worden (hier mee ook te zien dat verschil tussen zwart en wit duidelijk is)
+  
+De elektronische schakelingen van de proof of concepts komt overeen met het elektrisch schema van plan B
