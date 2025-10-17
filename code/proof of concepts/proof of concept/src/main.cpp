@@ -265,12 +265,29 @@ void loop()
 
 
     if (running) {
+      if(m1<0){
+        analogWrite(25, 0);
+        analogWrite(19, m1*-1);
+      }
+      else{
         analogWrite(25, m1);
+        analogWrite(19, 0);
+      }
+      if(m2<0){
+        analogWrite(26, 0);
+        analogWrite(21, m2*-1);
+      }
+      else{
         analogWrite(26, m2);
+        analogWrite(21, 0);
+      }
+
     }
     else{
         analogWrite(25, 0);
         analogWrite(26, 0);
+        analogWrite(19, 0);
+        analogWrite(21, 0);
     }
 
     // Read 8 sensors into the sensors[] array
