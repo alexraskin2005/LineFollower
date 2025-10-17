@@ -16,5 +16,6 @@ Hiermeer worden de volgende zaken aangetoond:
 * De motoren kunnen afzonderlijk aangestuurd worden
 * De sensoren kunnen uitgelezen worden (hier mee ook te zien dat verschil tussen zwart en wit duidelijk is)
 <br />
+<br />
   
 De elektronische schakelingen van de proof of concepts komt overeen met het elektrisch schema van plan B
