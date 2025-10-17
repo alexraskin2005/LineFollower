@@ -9,6 +9,7 @@ Deze proof of concept heeft de volgende functionaliteit:
 * Met linefollwer.local/start of /stop kunnen de motoren gestart en gestopt worden
 * Met linefollwer.local/debug kunnen parameters uitgelezen worden, hiermee kunnen de sensor waarden bekeken worden
 <br />
+
 <br />
 Hiermeer worden de volgende zaken aangetoond:
 * De draadloze communicatie werkt
