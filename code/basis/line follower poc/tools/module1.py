@@ -4,7 +4,7 @@ import pyqtgraph as pg
 import requests
 from websocket import WebSocketApp
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton
-from PyQt5.QtGui import QPalette, QColor``
+from PyQt5.QtGui import QPalette, QColor
 import sys
 
 
