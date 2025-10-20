@@ -16,6 +16,6 @@
 |11|weerstand 100 ohm | voorschakel led | recup | | 1 |
 |12| diode | beveiliging | nieuw | | 2 |
 |12| led rood | power led | recup | | 1 |
-| 13| FT232RL | usb to ttl | new | 1.69 | 1.69 |
+| 13| FT232RL | usb to ttl | new | 1.69 | 1 |1.69 |
 
 
