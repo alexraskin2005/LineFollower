@@ -17,5 +17,5 @@
 |12| diode | beveiliging | nieuw | | 2 |
 |12| led rood | power led | recup | | 1 |
 | 13| FT232RL | usb to ttl | new | 1.69 | 1 |1.69 |
-
+| 14 | pin header female 6P | pin connector | new | | 10 | 2.46 |
 
