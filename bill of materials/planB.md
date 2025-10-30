@@ -1,4 +1,5 @@
 ## bill of materials
+(Mechanische componenten nog niet inclusief)
 <br />
 
 |volgnummer|naam|omschrijving|nieuw/recup|kostprijs/stuk|aantal|subtotaal|

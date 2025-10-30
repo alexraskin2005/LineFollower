@@ -21,6 +21,15 @@
   datasheet module:
       https://components101.com/modules/drv8833-dual-h-bridge-motor-driver-module
 
+  ## Turnigy 1000mAh 2S 20C LiPoly Pack:
+  product page:
+    https://hobbyking.com/en_us/turnigy-1000mah-2s-20c-lipo-pack.html?srsltid=AfmBOoqG0tdAamJZcrulrI2b6X14dE9KuFi2jCsWPWCM-CzaCuRg5zGZ&___store=en_us
+
+  ##  AMS1117:
+  https://www.alldatasheet.com/datasheet-pdf/view/49118/ADMOS/AMS1117.html
+
+
+
   
   
   
