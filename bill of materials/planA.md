@@ -18,4 +18,4 @@
 | 13| FT232RL | usb to ttl | new | | 1 |1.69 |
 | 14 | pin header female 6P | pin connector | new | | 1 | 2.46 |
 | 15 | led groen | wifi status | recup | | 1
-
+| 16 | push button | start enable en boot| recup ||3
