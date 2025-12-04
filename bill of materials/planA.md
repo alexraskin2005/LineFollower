@@ -13,9 +13,9 @@
 |8| Condensator 10uF | ontkoppeling | recup | | 3 |
 |9| Condensator 0u1F | ontkoppeling | recup | | 3 |
 |10|weerstand 10k ohm | pullup | recup | | 1 |
-|11|weerstand 100 ohm | voorschakel led | recup | | 1 |
-|12| diode | beveiliging | nieuw | | 2 |
-|12| led rood | power led | recup | | 1 |
+|11|weerstand 100 ohm | voorschakel led | recup | | 2 |
+|12| led rood (klein) | power led | recup | | 1 |
 | 13| FT232RL | usb to ttl | new | | 1 |1.69 |
 | 14 | pin header female 6P | pin connector | new | | 1 | 2.46 |
-
+| 15 | led groen | wifi status | recup | | 1
+| 16 | push button | start enable en boot| recup ||3
