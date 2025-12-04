@@ -2,7 +2,7 @@
 
 Line follower project op HoGent
 
-![A description of my image](images/empty.png)
+![A description of my image](images/Screenshot 2025-11-26 145458.png)
 
   
 ## specifications
