@@ -19,9 +19,7 @@ batteries: lipo 2s 1000mah 20C
 
 wireless communication: ESP32
 
-distance sensor - motors: 
+distance sensor - motors: +-9cm
 
-weight:
-
-speed: 
+speed: 0.66 m/s
 
