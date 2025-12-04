@@ -136,12 +136,33 @@ class ESP32Monitor(QWidget):
         self.motor_group = QGroupBox("Motors")
         motor_layout = QVBoxLayout()
         self.motor_group.setLayout(motor_layout)
-        self.m1_bar = QProgressBar()
-        self.m2_bar = QProgressBar()
-        for bar, label in [(self.m1_bar, "M1"), (self.m2_bar, "M2")]:
-            bar.setRange(0, 100)
-            bar.setFormat(f"{label}: %p%")
-            motor_layout.addWidget(bar)
+
+        def make_motor_row(label):
+            row = QHBoxLayout()
+            left_bar = QProgressBar()
+            right_bar = QProgressBar()
+
+            left_bar.setRange(0, 100)
+            right_bar.setRange(0, 100)
+
+            left_bar.setTextVisible(False)
+            right_bar.setTextVisible(False)
+
+            left_bar.setFixedHeight(20)
+            right_bar.setFixedHeight(20)
+
+            row.addWidget(QLabel(label))
+            row.addWidget(left_bar)
+            row.addWidget(right_bar)
+
+            return row, left_bar, right_bar
+
+        row1, self.m1_left, self.m1_right = make_motor_row("M1")
+        row2, self.m2_left, self.m2_right = make_motor_row("M2")
+
+        motor_layout.addLayout(row1)
+        motor_layout.addLayout(row2)
+
         self.layout.addWidget(self.motor_group)
 
         # === Graph ===
@@ -226,12 +247,30 @@ class ESP32Monitor(QWidget):
         self.white_label.setText(f"white={data.get('whiteValues', [])}")
         self.black_label.setText(f"black={data.get('blackValues', [])}")
 
-        # Update sensors and motors
+        # Update sensors
         mapped = data.get("mappedSensors", [0]*8)
         for i, v in enumerate(mapped):
             self.mapped_bars[i].setValue(v)
-        self.m1_bar.setValue(max(0, min(100, int(data.get("m1", 0)))))
-        self.m2_bar.setValue(max(0, min(100, int(data.get("m2", 0)))))
+
+        # === Motor update (negative = left bar, positive = right bar) ===
+        def update_motor(value, left_bar, right_bar):
+            try:
+                value = int(value)
+            except:
+                value = 0
+
+            if value < 0:
+                left_bar.setValue(min(100, -value))
+                right_bar.setValue(0)
+            elif value > 0:
+                left_bar.setValue(0)
+                right_bar.setValue(min(100, value))
+            else:
+                left_bar.setValue(0)
+                right_bar.setValue(0)
+
+        update_motor(data.get("m1", 0), self.m1_left, self.m1_right)
+        update_motor(data.get("m2", 0), self.m2_left, self.m2_right)
 
         # Update graph
         now = time.time()
@@ -253,7 +292,7 @@ class ESP32Monitor(QWidget):
                 ymax = max(100, abs(max(vals, key=abs)))
                 self.graph_widget.setYRange(-ymax, ymax)
 
-        # Update table (full history)
+        # Update table
         exclude = {"ssid", "ip", "calculationTime", "sensors", "whiteValues", "blackValues"}
         flat = {}
         for k, v in data.items():
